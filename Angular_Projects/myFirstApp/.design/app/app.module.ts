@@ -3,15 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HightLightFontsizeDirective } from './hight-light-fontsize.directive';
-import { DisplayMoviesDirective } from './display-movies.directive';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HightLightFontsizeDirective,
-    DisplayMoviesDirective
-  ],
+  declarations: [,AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule
